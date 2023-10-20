@@ -46,14 +46,21 @@ export default function Contact() {
 					setPending(false);
 				}}
 			>
+				<label htmlFor="email" className="invisible">
+					Email
+				</label>
 				<input
 					className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
 					name="senderEmail"
+					id="email"
 					type="email"
 					required
 					maxLength={500}
 					placeholder="Votre email"
 				/>
+				<label htmlFor="message" className="invisible">
+					Message
+				</label>
 				<textarea
 					className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outlin-none"
 					name="message"

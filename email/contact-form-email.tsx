@@ -1,9 +1,5 @@
-"use client";
-
-import { Body, Container, Head, Heading, Hr, Html, Preview, Section, Text } from '@react-email/components';
-
+import { Body, Container, Head, Heading, Hr, Html, Preview, Section, Text, Tailwind } from '@react-email/components';
 import React from 'react';
-import { Tailwind } from '@react-email/tailwind';
 
 type ContactFormEmailProps = {
 	message: string;
