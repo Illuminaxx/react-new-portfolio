@@ -60,7 +60,7 @@ export default function Intro() {
 			>
 				<span className="font-bold">Bonjour, Je suis Aurélien.</span> Je suis un {' '}
 				<span className="font-bold">développeur frontend</span> avec <span className="font-bold">6 années</span>{' '}
-				d'éxpériences. J'aime construire des <span className="italic">sites & applicationss</span>. Mon domaine
+				d'éxpériences. J'aime construire des <span className="italic">sites & applications</span>. Mon domaine
 				de prédilection est <span className="underline">React</span>.
 			</motion.h1>
 
