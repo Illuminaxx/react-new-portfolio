@@ -44,7 +44,7 @@ export default function Project({
 
                 <Image
                 src={imageUrl}
-                priority={false}
+                priority={true}
                 alt="Project I worked on"
                 quality={95}
                 className="absolute hidden sm:block top-4 -right-4 w-[18.25rem] rounded-t-lg shadow-2xl
