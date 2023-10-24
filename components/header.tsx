@@ -34,6 +34,7 @@ export default function Header() {
 									}
 								)}
 								href={link.hash}
+								passHref
 								onClick={() => {
 									setActiveSection(link.name);
 									setTimeOfLastClick(Date.now());
