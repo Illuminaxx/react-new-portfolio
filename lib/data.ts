@@ -9,23 +9,23 @@ import atecbookImg from "@/public/atecbook.png";
 export const links = [
   {
     name: "Accueil",
-    hash: "#home",
+    hash: "#accueil",
   },
   {
     name: "A propos",
-    hash: "#about",
+    hash: "#apropos",
   },
   {
     name: "Projets",
-    hash: "#projects",
+    hash: "#projets",
   },
   {
     name: "Compétences",
-    hash: "#skills",
+    hash: "#compétences",
   },
   {
     name: "Expériences",
-    hash: "#experience",
+    hash: "#expériences",
   },
   {
     name: "Contact",
